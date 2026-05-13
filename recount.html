@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recount</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="stylerecount.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+<header class="fixed w-full z-50 bg-black/40 backdrop-blur-md">
+    <div class="container mx-auto flex items-center justify-between px-6 py-4">
+      <img class="w-10 h-10 rounded-full  flex items-center justify-center text-cyan-400 font-bold"
+        src="assett/logo.png" />
+      <nav class="hidden md:flex gap-8 text-sm font-bold">
+        <a href="index.html#home"
+          class="relative group text-white hover:text-[rgba(34,211,238,1)] transition-colors duration-500">Home
+          <span class="absolute -bottom-2 left-0 w-full h-1 
+              bg-[rgba(34,211,238,1)] 
+               rounded-full 
+               shadow-[0_0_12px_rgba(34,211,238,0.8)] 
+               opacity-0 group-hover:opacity-100
+               transition-opacity duration-200 ease-in-out">
+          </span>
+        </a>
+        <a href="index.html#aboout"
+          class="relative group text-white hover:text-[rgba(34,211,238,1)] transition-colors duration-500">About
+          <span class="absolute -bottom-2 left-0 w-full h-1 
+              bg-[rgba(34,211,238,1)] 
+               rounded-full 
+               shadow-[0_0_12px_rgba(34,211,238,0.8)] 
+               opacity-0 group-hover:opacity-100
+               transition-opacity duration-200 ease-in-out">
+          </span>
+        </a>
+        <a href="index.html#services"
+          class="relative group text-white hover:text-[rgba(34,211,238,1)] transition-colors duration-500">Services
+          <span class="absolute -bottom-2 left-0 w-full h-1 
+              bg-[rgba(34,211,238,1)] 
+               rounded-full 
+               shadow-[0_0_12px_rgba(34,211,238,0.8)] 
+               opacity-0 group-hover:opacity-100
+               transition-opacity duration-200 ease-in-out">
+          </span>
+        </a>
+        <a href="index.html#experince"
+          class="relative group text-white hover:text-[rgba(34,211,238,1)] transition-colors duration-500">Experience
+          <span class="absolute -bottom-2 left-0 w-full h-1 
+              bg-[rgba(34,211,238,1)] 
+               rounded-full 
+               shadow-[0_0_12px_rgba(34,211,238,0.8)] 
+               opacity-0 group-hover:opacity-100
+               transition-opacity duration-200 ease-in-out">
+          </span>
+        </a>
+        <a href="index.html#skill"
+          class="relative group text-white hover:text-[rgba(34,211,238,1)] transition-colors duration-500">Skill
+          <span class="absolute -bottom-2 left-0 w-full h-1 
+              bg-[rgba(34,211,238,1)] 
+               rounded-full 
+               shadow-[0_0_12px_rgba(34,211,238,0.8)] 
+               opacity-0 group-hover:opacity-100
+               transition-opacity duration-200 ease-in-out">
+          </span>
+        </a>
+      </nav>
+      <div class="hidden md:block">
+        <a href="index.html#contact" class="bg-gradient-to-r from-blue-500 via-cyan-500 to-cyan-300 text-white px-5 py-2 rounded-full text-md font-bold hover:shadow-[0_0_20px_#22d3ee] transition-all duration-500 inline-block">
+          Contact
+        </a>
+      </div>
+      <button id="menu-btn" class="md:hidden text-white text-2xl">
+        ☰
+      </button>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden px-6 pb-6">
+      <div class="flex flex-col gap-4 bg-black/80 p-4 rounded-xl backdrop-blur-md">
+        <a href="index.html#home" class="hover:text-cyan-400">Home</a>
+        <a href="index.html#about" class="hover:text-cyan-400">About</a>
+        <a href="index.html#services" class="hover:text-cyan-400">Services</a>
+        <a href="index.html#experince" class="hover:text-cyan-400">Experience</a>
+        <a href="index.html#skill" class="hover:text-cyan-400">Skill</a>
+
+        <a href="index.html#contact" class="bg-gradient-to-r from-blue-500 via-cyan-500 to-cyan-300 text-white px-5 py-2 rounded-full text-md font-bold hover:shadow-[0_0_20px_#22d3ee] transition-all duration-500 inline-block">
+          Contact
+        </a>
+      </div>
+    </div>
+  </header>
+<div class="herosection pt-[92px]">
+<section class="text-gray-600 body-font w-full">
+  <div class="container mx-auto flex px-5 py-24 flex-col items-center justify-center min-h-[60vh]">
+    <div class="w-full flex flex-col items-center text-center">
+     <h1 class="title-font sm:text-5xl text-4xl mb-4 font-bold text-white leading-tight">
+          My Recount Text
+          <br class="hidden lg:inline-block">About My Experience in Build Website
+        </h1>
+      <p class="mb-8 leading-relaxed text-gray-300">This recount tells the story of my experience in building a website, starting from developing ideas,<br> designing the layout, to turning it into a functional and <br>meaningful digital project. </p>
+    </div>
+    </div>
+  </div>
+</section>
+</div>
+<section data-aos="fade-up" id="about" class="weare py-32">
+    <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-20 items-center">
+            <div class="reveal md:col-span-7">
+                <h2 class="text-4xl md:text-5xl font-bold mb-8 leading-tight text-white">
+                    My Journey in Building <span class="text-blue-500">A Portofolio</span>
+                </h2>
+                <p class="text-justify text-gray-100 max-w-full mt-4 font-light leading-relaxed">
+                    A few days ago, i decided to make a personate portofolio website. It wasn't my first time to make a website, but i still nervous to make it. Even though it's not easy, i ws happy and hoped i could make a good website by myself.
+                </p>
+                <p class="text-justify text-gray-100 max-w-full mt-4 font-light leading-relaxed">
+                    At the beginning, i started to determine the concept of my website. I wanted my portofolio looks modern and professional, so i decide to choose the darks theme one with a touch of blue color to make it looks atracktive.
+                </p>
+                <p class="text-justify text-gray-100 max-w-full mt-4 font-light leading-relaxed">
+                    After built a concept, i started to make a design with the application which called it figma. I focused to created a clean layout, selected fonts, and chose colour combinations. This step helped me to visualize how the website would loook before coding
+                </p>
+                <p class="text-justify text-gray-100 max-w-full mt-4 font-light leading-relaxed">
+                    Finally, I finished my design and get the accepted from my teacher. I opened my visual studio code, that's an application for writting code. So, the design that i make could be a real website. I began to write the code. I used HTML to build the struckture, Tailwind CSS for the style, and a little JavaScript to make it interacktive. During the process, i made sure my website was responsive, so it could be accessed on both desktop and mobile devices.
+                </p>
+                <p class="text-justify text-gray-100 max-w-full mt-4 font-light leading-relaxed">
+                    During the coding process, i found several challenges such as layout didn't match with the design and some element didn't work properly. Honestly it made me stressed. I tried to fidh the mistakes and fixed it by watching and reading a tutorials. After that, i ran tests to ensure my website was running smoothly and the features i'd provided could work properly.
+                </p>
+                <p class="text-justify text-gray-100 max-w-full mt-4 font-light leading-relaxed">
+                    Finally, my portofolio website was finished and ready to publish. i felt very proud of my self because i successfully created my own portofolio website. this experience taught me ant thinghs such as web design, coding, and problem solving.
+                </p>
+            </div>
+            <div class="reveal md:col-span-5 " style="transition-delay: 0.3s;">   
+                <!-- Gambar 1 -->
+                    <div class="relative group">
+                        <div class="absolute -inset-2 bg-blue-500/20 rounded-2xl blur-lg group-hover:bg-blue-500/40 transition"></div>
+                            <div class="relative rounded-2xl overflow-hidden border border-white/10 shadow-xl">
+                                <img src="assett/foto 2.jpeg" alt="Step 1" class="w-full h-80 object-cover grayscale hover:grayscale-0 transition duration-700">
+                            </div>
+                        </div>
+                <!-- Gambar 2 -->
+                    <div class="relative group mt-16">
+                        <div class="absolute -inset-2 bg-purple-500/20 rounded-2xl blur-lg group-hover:bg-purple-500/40 transition"></div>
+                            <div class="relative rounded-2xl overflow-hidden border border-white/10 shadow-xl">
+                            <img src="assett/foto 1.jpeg" alt="Step 2" class="w-full h-80 object-cover grayscale hover:grayscale-0 transition duration-700">
+                        </div>
+                    </div>                
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<footer class="bg-gray-900 dark:bg-gray-900">
+    <div class="mx-auto max-w-5xl px-4 py-14 sm:px-6 lg:px-8">
+      <div class="flex justify-center text-white dark:text-teal-300">
+        <img class="h-20" src="assett/logo footer.png" />
+      </div>
+      <p class="mx-auto mt-0 max-w-md text-center leading-relaxed text-white dark:text-gray-400 font-light">
+        An aspiring developer passionate about front-end engineering and <br> UI/UX. Currently exploring the world of
+        web technologies from indonesia.
+      </p>
+
+      <ul class="mt-6 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
+        <li>
+          <a href="index.html#home"
+            class="relative group text-white hover:text-[rgba(34,211,238,1)] transition-colors duration-500">Home
+            <span class="absolute -bottom-2 left-0 w-full h-1 
+              bg-[rgba(34,211,238,1)] 
+               rounded-full 
+               shadow-[0_0_12px_rgba(34,211,238,0.8)] 
+               opacity-0 group-hover:opacity-100
+               transition-opacity duration-200 ease-in-out">
+            </span>
+          </a>
+        </li>
+
+        <li>
+          <a href="index.html#about"
+            class="relative group text-white hover:text-[rgba(34,211,238,1)] transition-colors duration-500">About
+            <span class="absolute -bottom-2 left-0 w-full h-1 
+              bg-[rgba(34,211,238,1)] 
+               rounded-full 
+               shadow-[0_0_12px_rgba(34,211,238,0.8)] 
+               opacity-0 group-hover:opacity-100
+               transition-opacity duration-200 ease-in-out">
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="index.html#services"
+            class="relative group text-white hover:text-[rgba(34,211,238,1)] transition-colors duration-500">Services
+            <span class="absolute -bottom-2 left-0 w-full h-1 
+              bg-[rgba(34,211,238,1)] 
+               rounded-full 
+               shadow-[0_0_12px_rgba(34,211,238,0.8)] 
+               opacity-0 group-hover:opacity-100
+               transition-opacity duration-200 ease-in-out">
+            </span>
+          </a>
+        </li>
+
+        <li>
+          <a href="index.html#experince"
+            class="relative group text-white hover:text-[rgba(34,211,238,1)] transition-colors duration-500">Experience
+            <span class="absolute -bottom-2 left-0 w-full h-1 
+              bg-[rgba(34,211,238,1)] 
+               rounded-full 
+               shadow-[0_0_12px_rgba(34,211,238,0.8)] 
+               opacity-0 group-hover:opacity-100
+               transition-opacity duration-200 ease-in-out">
+            </span>
+          </a>
+        </li>
+
+        <li>
+          <a href="index.html#skill"
+            class="relative group text-white hover:text-[rgba(34,211,238,1)] transition-colors duration-500">Skill
+            <span class="absolute -bottom-2 left-0 w-full h-1 
+              bg-[rgba(34,211,238,1)] 
+               rounded-full 
+               shadow-[0_0_12px_rgba(34,211,238,0.8)] 
+               opacity-0 group-hover:opacity-100
+               transition-opacity duration-200 ease-in-out">
+            </span>
+          </a>
+        </li>
+      </ul>
+      <!--icon-->
+      <ul class="mt-6 flex justify-center gap-6 md:gap-8">
+        <li>
+          <a href="https://www.instagram.com/sahronotsahroni?igsh=MWh3Mm8zOXQ5azg4YQ==" rel="noreferrer" target="_blank"
+            class="text-white transition hover:text-[rgba(34,211,238,1)] dark:text-white dark:hover:text-white/75">
+            <span class="sr-only">Instagram</span>
+            <svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.tiktok.com/@dandelioneuis?_r=1&_t=ZS-96G1b2yhnID" rel="noreferrer" target="_blank"
+            class="text-white transition hover:text-[rgba(34,211,238,1)] dark:text-white dark:hover:text-white/75">
+            <span class="sr-only">tiktok</span>
+            <svg class="size-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12.75 2c.414 2.252 2.24 4.078 4.492 4.492v2.253a6.746 6.746 0 01-4.492-1.59v6.815a5.365 5.365 0 11-5.365-5.365c.35 0 .694.034 1.027.098v2.21a3.155 3.155 0 00-1.027-.173 3.155 3.155 0 103.155 3.155V2h2.21z" />
+            </svg>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/zahrorahmadan-cpu" rel="noreferrer" target="_blank"
+            class="text-white transition hover:text-[rgba(34,211,238,1)] dark:text-white dark:hover:text-white/75">
+            <span class="sr-only">GitHub</span>
+            <svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://wa.me/qr/BW3S4YJDX5JJA1" rel="noreferrer" target="_blank"
+            class="text-white transition hover:text-[rgba(34,211,238,1)] dark:text-white dark:hover:text-white/75">
+            <span class="sr-only">Dribbble</span>
+            <svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M20.52 3.48A11.8 11.8 0 0012.01 0C5.38 0 .02 5.36.02 12c0 2.11.55 4.17 1.6 5.98L0 24l6.18-1.61A11.96 11.96 0 0012.01 24c6.63 0 11.99-5.36 11.99-12 0-3.2-1.25-6.21-3.48-8.52zM12 21.8c-1.8 0-3.56-.48-5.1-1.38l-.37-.22-3.67.96.98-3.58-.24-.37A9.8 9.8 0 012.2 12c0-5.4 4.4-9.8 9.8-9.8 2.62 0 5.08 1.02 6.93 2.87A9.72 9.72 0 0121.8 12c0 5.4-4.4 9.8-9.8 9.8zm5.39-7.36c-.3-.15-1.78-.88-2.06-.98-.28-.1-.48-.15-.68.15-.2.3-.78.98-.96 1.18-.18.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.46-.88-.78-1.47-1.75-1.64-2.05-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.53.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.07-.15-.68-1.64-.93-2.25-.24-.58-.49-.5-.68-.51h-.58c-.2 0-.53.07-.8.38-.28.3-1.06 1.04-1.06 2.53s1.09 2.93 1.24 3.13c.15.2 2.13 3.26 5.16 4.57.72.31 1.28.5 1.72.64.72.23 1.37.2 1.88.12.57-.08 1.78-.73 2.03-1.43.25-.7.25-1.3.18-1.43-.07-.13-.27-.2-.57-.35z"
+                clip-rule="evenodd" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+</body>
+<script src="script.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script>
+  AOS.init();
+</script>
+</html>

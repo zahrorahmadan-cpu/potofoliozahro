@@ -1,0 +1,74 @@
+body {
+  background: linear-gradient(135deg, #0f172a, #000000);
+}
+.hero {
+  position: relative;
+  min-height: 100vh;
+  background: rgb(0, 4, 18);
+  overflow: hidden; 
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  max-width: 400px;
+
+  background: linear-gradient(
+    90deg,
+    #172f42 0%,
+    #061532 40%,
+    transparent 100%
+  );
+  
+  z-index: 0;
+}
+/* CONTENT biar di atas */
+.content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  padding: 100px;
+}
+/*about*/
+.about{
+  background-color: #020617;
+  background-image: 
+  radial-gradient(circle at right bottom, rgba(34, 211, 238, 0.148), transparent 50%);
+}
+
+/*services*/
+.services{
+  background-color: #000000;
+}
+/*progress*/
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.skill{
+  padding-left: 90px;
+  padding-right: 90px;
+  margin-bottom: 50px;
+}
+
+.progress-container {
+  width: 100%;
+  height: 10px;
+  background: #1f2937;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0;
+  border-radius: 999px;
+  background: linear-gradient(to right, #22d3ee, #3b82f6);
+  transition: width 1.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
