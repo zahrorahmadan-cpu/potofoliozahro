@@ -5,10 +5,9 @@ btn.addEventListener('click', () => {
  menu.classList.toggle('hidden');
 });
 
-
 var i = 0;
 var txt = "Welcome to My Portofolio";
-var speed = 80;
+var speed = 30;
 
 function typeWriter() {
   if (i < txt.length) {
@@ -21,7 +20,6 @@ typeWriter();
 
 
 const section = document.querySelector(".skill");
-
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
